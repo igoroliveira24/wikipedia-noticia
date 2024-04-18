@@ -1,0 +1,276 @@
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#arrumar {
+    display: flex;
+    flex-direction: column;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+html {
+    background: white;
+    color: black;
+}
+
+body {
+    width: 1480px;
+    height:auto;
+    margin: 10px auto;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+#bloco {
+    width: 300px;
+    height: 440px;
+    border: 5px solid rgb(231, 231, 231);
+    background-color: rgb(240, 240, 240);
+    margin-left: 10%;
+    text-align: center;
+    align-content: center;
+    
+    
+}
+
+
+footer {
+    width: 1450px;
+    height: auto;
+    text-align: left;
+    position: relative;
+    right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 85%;
+}
+.imagem {
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+#entrar {
+    position: relative;
+    top: 10px;
+    left: 690px;
+}
+.image {
+    position: relative;
+    left: 25px;
+    top: 0px;
+}
+
+li {
+    font-size: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quadrado_cinza {
+    width: auto;
+    height: 28px;
+    border: 1px solid grey;
+    background: rgb(247, 247, 247);
+
+
+}
+.quadrado_cinza a {
+    margin-left: 7px;
+    line-height: 24px;
+    font-size: 85%;
+}
+
+#a a {
+    margin-left: 20px;
+    font-style: italic;
+    
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+    cursor: pointer;
+}
+
+.submenu {
+    width: 200px;
+    height: 70px;
+    background: white;
+    box-shadow: 1px 1px 5px;
+    position: absolute;
+    top:10px;
+    border: 20px solid white;
+    visibility: hidden;
+    align-content: center;
+    
+}
+.material-symbols-outlined:hover .submenu {
+    visibility: visible;
+}
+
+
+
+#menu {
+    display: flex;    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 70%;
+}
+
+#p {
+    display: flex;
+    list-style: none;
+}
+
+#li {
+    margin-right: 10px;
+}
+
+li a {
+    color: blue;
+}
+
+#menu1 {
+    position: relative;
+    top: 12px;
+    margin-right: 12px;
+}
+
+.wikipedia_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.wikipedia_lado {
+    display: flex;
+}
+
+#wikipedia {
+    margin-right: 10px;
+    position: absolute;
+    left: 90;
+}
+
+#wikitag {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+#wikipedia_letra {
+    position: absolute;
+    top: 18;
+    left: 153;
+}
+
+#menu2 {
+    position: absolute;
+    top: 110;
+}
+
+#noticia {
+    position: absolute;
+    top: 105;
+    left: 85;
+}
+
+.submenu1 {
+    width: 230px;
+    height: 530px;
+    background: white;
+    box-shadow: 1px 1px 5px;
+    position: absolute;
+    top:5px;
+    border: 1px solid white;
+    visibility: hidden;
+    z-index: 10;
+    font-size: 70%;
+    overflow: scroll;
+    text-align: left;
+    
+}
+.material-symbols-outlined:hover .submenu1 {
+    visibility: visible;
+    
+}
+
+.submenu1 li{
+    margin: 15px 20px 20px 15px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.submenu1 hr {
+    width: 190;
+    
+}
+
+#bloco_buscar {
+    width: 380px;
+    height: 28px;
+    border: 1px solid grey;
+    position: absolute;
+    left: 330px;
+    top: 20px;
+    line-height: 24px;
+    display: flex;
+    font-size: 95%;
+    color: rgb(126, 126, 126);
+}
+
+#pesquisar a{
+    width: 90px;
+    height: 28px;
+    border: 1px solid grey;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    left: 710px;
+    top: 20px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 93%;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+
+}
+
+#pesquisar a:hover{
+    background-color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  line-height: 28px;
+
+}
+
+#search {
+    margin-left:5px ;
+    margin-right: 5px;
+}
